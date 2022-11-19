@@ -1,0 +1,104 @@
+
+.titulo {
+    background-color: red;
+    padding: 0;
+    width: 400px;
+    margin: 0;
+    border-top-right-radius: 3rem ;
+    
+    border:solid 0.2rem black ;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 2rem;
+    color: white;
+}
+
+.pokedex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    width: 400px;
+    min-height: 200px;
+    border-radius: 1.5rem ;
+    border:solid 0.2rem black ;
+    border-top: 0;
+    border-start-end-radius: 0 ;
+    border-start-start-radius: 0 ;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 125px;
+}
+
+.pokePhoto {
+    background-color: white;
+    border: 0.2rem solid black;
+    max-width: 180px;
+    border-radius: 0.5rem;
+}
+
+.nombre {
+    margin-top: 0.5rem;
+    padding: 0.2rem 1rem;
+    border-radius: 2rem;
+    background-color: rgb(188, 216, 188);
+    color: rgb(0, 0, 0);
+    min-height: 20pxs;
+}
+
+
+.pokeInfo {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid 0.1rem black;
+}
+
+
+.boton {
+    margin-top: 0.2rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: red;
+    box-shadow: 0 0 0.2rem black;
+    color: black;
+}
+
+.pokeScreen {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    background-color: gray;
+    color: aqua;
+    font-size: 0.8rem;
+    max-width: 8rem;
+    min-width: 4rem;
+}
+
+.pokeTipos {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: gray;
+    color: aqua;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    min-width: 4rem;
+    font-size: 0.8rem;
+}
